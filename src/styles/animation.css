@@ -1,0 +1,20 @@
+.imageMoving {
+  animation: ImageMover 3s ease-in-out infinite ;
+
+}
+
+.footerImageMove {
+  animation: ImageMover 4s ease-in-out infinite ;
+}
+
+@keyframes ImageMover {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

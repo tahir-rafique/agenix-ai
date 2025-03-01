@@ -1,0 +1,39 @@
+#div1::after {
+  content: "";
+  display: inline;
+  width: 180px;
+  height: 1px;
+  border-bottom: dotted;
+  position: absolute;
+  left: 200px;
+  top: 50%;
+  
+  color: var(--color-secondary);
+}
+
+
+
+#div2::after {
+  content: "";
+  display: inline;
+  width: 180px;
+  height: 1px;
+  border-bottom: dotted;
+  position: absolute;
+  left:190px;
+  top: 50%;
+  color: var(--color-secondary);
+}
+
+#div3::after {
+  content: "";
+  display: inline;
+  width: 180px;
+  height: 1px;
+  border-bottom: dotted;
+  position: absolute;
+  left: 190px;
+  top: 50%;
+  z-index: 0;
+  color: var(--color-secondary);
+}

@@ -1,0 +1,217 @@
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 18px;
+}
+
+.text-differ {
+  font-size: 16px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.small-text {
+  font-size: 15px;
+}
+
+/* Line-Height  */
+.line-height {
+  line-height: 102%;
+}
+
+/* Border-Radius */
+.raduis-bottom-img {
+  border-radius: 36px;
+}
+
+.raduis-services {
+  border-radius: 24px;
+}
+
+.raduis-work {
+  border-radius: 16px;
+}
+
+.raduis-flowchart {
+  border-radius: 8px;
+}
+
+
+
+@media (max-width: 1340px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .flow-chart {
+    font-size: 15px;
+  }
+
+  .small-text {
+    font-size: 14px;
+  }
+
+  .raduis-services {
+    border-radius: 20px;
+  }
+
+  .raduis-work {
+    border-radius: 14px;
+  }
+
+  .raduis-flowchar {
+    border-radius: 6px;
+  }
+
+  .raduis-bottom-img {
+    border-radius: 32px;
+  }
+}
+
+@media (max-width: 780px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .flow-chart {
+    font-size: 14px;
+  }
+
+  .small-text {
+    font-size: 13px;
+  }
+
+  .raduis-services {
+    border-radius: 16px;
+  }
+
+  .raduis-work {
+    border-radius: 12px;
+  }
+
+  .raduis-flowchar {
+    border-radius: 5px;
+  }
+
+  .raduis-bottom-img {
+    border-radius: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .flow-chart {
+    font-size: 12px;
+  }
+
+  .small-text {
+    font-size: 14px;
+  }
+
+  .raduis-services {
+    border-radius: 12px;
+  }
+
+  .raduis-work {
+    border-radius: 8px;
+  }
+
+  .raduis-flowchar {
+    border-radius: 4px;
+  }
+
+  .raduis-bottom-img {
+    border-radius: 20px;
+  }
+}
