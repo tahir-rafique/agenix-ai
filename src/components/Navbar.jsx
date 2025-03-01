@@ -4,7 +4,6 @@ import { Menu, X } from "lucide-react";
 import ailogo from '../assets/images/logoAi.png'
 
 
-
 const Navbar = () => {
   const [menuOpen, setmenuOpen] = useState(false);
 
