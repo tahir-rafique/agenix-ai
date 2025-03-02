@@ -2,19 +2,19 @@ import imagecontact from "../assets/images/imagecontact.png";
 
 const ContactUs = () => {
     return (
-        <div className="mx-auto  px-4 lg:px-20 py-4 lg:py-44 ">
-            <div className="px-6 sm:px-20 bg-custom-gradient raduis-bottom-img max-xl:py-5 py-20 
-            flex relative">
+        <div className="mx-auto  px-4 lg:px-20 py-4 lg:py-44">
+            <div className=" sm:px-20 bg-custom-gradient raduis-bottom-img max-xl:py-5 py-20 
+            flex h-full gap-4 max-sm:gap-2 ">
 
-                <div className="w-[40%]  max-sm:hidden">
+                <div className="w-[300px] relative h-fit-content">
                     <img
                         src={imagecontact}
                         alt="no image"
-                        className="absolute bottom-0 max-xl:size-64 max-md:size-54 max-sm:hidden footerImageMove"
+                        className="absolute bottom-0 max-xl:size-64 max-md:size-54 max-sm:left-0 footerImageMove"
                     />
 
                 </div>
-                <div className="flex flex-col gap-2 lg:gap-5 w-[60%]">
+                <div className="flex flex-col gap-2 lg:gap-5 ">
                     <h2 className="font-semibold line-height">
                         Join the Future of Crypto <br /> Intelligence
                     </h2>
