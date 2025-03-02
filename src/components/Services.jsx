@@ -16,7 +16,7 @@ const Services = () => {
           {sData.map((item, index) => (
             <div
               key={index}
-              className="py-20 sm:px-5 sm:py-4 lg:py-20 flex flex-col gap-2 justify-center items-center max-w-[350px] raduis-services border border-muted"
+              className="py-20 sm:px-5 sm:py-4 lg:py-20 flex flex-col gap-2 justify-center items-center max-w-[350px] raduis-services border border-muted hover:bg-muted tarnsition-all duration-500 ease-in-out" 
             >
               <div>
                 <img
