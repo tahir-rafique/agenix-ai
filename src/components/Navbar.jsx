@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { navHeading } from "./../constant/data";
 import { Menu, X } from "lucide-react";
-import ailogo from '../assets/images/logoAi.png'
+import logo from '../assets/images/logo.png'
 
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
         <div>
           <a href="/">
 
-            <img src={ailogo} alt="" className="h-20 max-sm:h-14" />
+            <img src={logo} alt="" className="h-20 max-sm:h-14" />
           </a>
         </div>
         <div>
@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="bg-muted py-4 w-[300px] fixed top-0 h-screen z-50  left-0 lg:hidden flex flex-col gap-4 px-6 transition-all duration-300 ease-linear">
           <div>
             <a href="/">
-              <img src={ailogo} alt="" className="h-20 max-sm:h-14" />
+              <img src={logo} alt="" className="h-20 max-sm:h-14" />
             </a>
           </div>
 
